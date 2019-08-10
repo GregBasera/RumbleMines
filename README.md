@@ -19,16 +19,21 @@ $ git clone https://github.com/GregBasera/RumbleMines.git RumbleMines
   * *Note: The use of two PCs is optimal for this game, but it can be played with just one.*
   * *Note: You'll need a seperate terminal to run Server.java*
 
-  
+
 2. Set up the **Server** so the clients can connect to it. Run the commands below in a terminal.
-  * $ javac Server.java
-  * $ java Server [port] [row] [col] [numOfPlayers]
+```
+$ javac Server.java
+$ java Server [port] [row] [col] [numOfPlayers]
+```
 
 3. Initialize a **Client** and connect to the server. *Note: The game will not start until the [numOfPlayers] set by the server is met.*
-  * $ javac Client.java
-  * $ java Client [ip] [port] [IGN]
+```
+  $ javac Client.java
+  $ java Client [ip] [port] [IGN]
+```
 
 4. Enjoy!
+
 
 | Attribute | Description | Allowed Values |
 |---|---|
