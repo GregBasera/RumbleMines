@@ -42,6 +42,6 @@
 |-----------|-------------|----------------|
 | ip | The IP address of the **Server** | *Ex.* 127.0.0.1 |
 | port (client) | the port number to Server is initialized in | 5000 < *n* < 1024 |
-| IGN | (In-Game Name) the name you want in-game. *Note: Use quotation marks if you want spaces in your name* | *Ex.* "Greg" |
+| IGN | (In-Game Name) the name you want in-game. | *Ex.* "Greg" |
 
 4. Enjoy!
