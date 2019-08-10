@@ -14,7 +14,7 @@
 ---
 1. First of all, you should clone this repo.
 ```
-$ git clone https://github.com/GregBasera/RumbleMines.git RumbleMines
+  $ git clone https://github.com/GregBasera/RumbleMines.git RumbleMines
 ```
   * *Note: The use of two PCs is optimal for this game, but it can be played with just one.*
   * *Note: You'll need a seperate terminal to run Server.java*
@@ -22,8 +22,8 @@ $ git clone https://github.com/GregBasera/RumbleMines.git RumbleMines
 
 2. Set up the **Server** so the clients can connect to it. Run the commands below in a terminal.
 ```
-$ javac Server.java
-$ java Server [port] [row] [col] [numOfPlayers]
+  $ javac Server.java
+  $ java Server [port] [row] [col] [numOfPlayers]
 ```
 
 3. Initialize a **Client** and connect to the server. *Note: The game will not start until the [numOfPlayers] set by the server is met.*
@@ -34,7 +34,7 @@ $ java Server [port] [row] [col] [numOfPlayers]
 
 4. Enjoy!
 
-
+### Attribute Legend
 | Attribute | Description | Allowed Values |
 |---|---|
 | port (server) | the port number to Server is going to be initialized in | 5000 < *n* < 1024 |
