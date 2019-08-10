@@ -26,11 +26,11 @@
   $ java Server [port] [row] [col] [numOfPlayers]
 ```
 
-Attribute | Description | Allowed Values
-------|-------
-port server | the port number to Server is going to be initialized in | 5000 < n < 1024
-row, col | the dimensions the board will be generated with when the Clients connects | *n* > 5
-numOfPlayers | the number of Clients that will be allowed to connect to the Server | *n* > 1
+| Attribute | Description | Allowed Values |
+|-----------|-------------|----------------|
+| port (server) | the port number to Server is going to be initialized in | 5000 < n < 1024 |
+| row, col | the dimensions the board will be generated with when the Clients connects | *n* > 5 |
+| numOfPlayers | the number of Clients that will be allowed to connect to the Server | *n* > 1 |
 
 3. Initialize a **Client** and connect to the server. *Note: The game will not start until the [numOfPlayers] set by the server is met.*
 ```
@@ -40,12 +40,13 @@ numOfPlayers | the number of Clients that will be allowed to connect to the Serv
 
 4. Enjoy!
 
-<!-- ### Attribute Legend -->
-Attribute | Description | Allowed Values
-------|-------
-port server | the port number to Server is going to be initialized in | 5000 < n < 1024
-row, col | the dimensions the board will be generated with when the Clients connects | *n* > 5
-numOfPlayers | the number of Clients that will be allowed to connect to the Server | *n* > 1
-ip | The IP address of the **Server** | *Ex.* 127.0.0.1
-port (client) | the port number to Server is initialized in | 5000 < *n* < 1024
-IGN | (In-Game Name) the name you want in-game. *Note: Use quotation marks if you want spaces in your name* | *Ex.* "Greg"
+### Attribute Legend
+
+| Attribute | Description | Allowed Values |
+|-----------|-------------|----------------|
+| port (server) | the port number to Server is going to be initialized in | 5000 < n < 1024 |
+| row, col | the dimensions the board will be generated with when the Clients connects | *n* > 5 |
+| numOfPlayers | the number of Clients that will be allowed to connect to the Server | *n* > 1 |
+| ip | The IP address of the **Server** | *Ex.* 127.0.0.1 |
+| port (client) | the port number to Server is initialized in | 5000 < *n* < 1024 |
+| IGN | (In-Game Name) the name you want in-game. *Note: Use quotation marks if you want spaces in your name* | *Ex.* "Greg" |
